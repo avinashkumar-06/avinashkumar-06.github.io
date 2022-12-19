@@ -264,12 +264,21 @@ small {
 /*******************
 		HEADER
 *************************/
+.main-header{
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	
+}
+
 .nav {
 	width: 100%;
 	padding: 0 1rem;
+	
 }
 
 .nav .container {
+	
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -874,4 +883,16 @@ small {
 	.mail-link {
 		justify-content: center;
 	}
+}
+
+
+
+
+
+#github-title{
+
+	font-size: 56px;
+	text-decoration:underline #66ffcc 0.8px;
+	
+
 }
