@@ -740,6 +740,14 @@ small {
 	align-items: flex-end;
 }
 
+#github-title{
+
+	font-size: 56px;
+	text-decoration:underline #66ffcc 0.8px;
+	
+
+}
+
 /* responsiveness */
 @media screen and (max-width: 50em) {
 	body::after {
@@ -883,16 +891,15 @@ small {
 	.mail-link {
 		justify-content: center;
 	}
-}
 
-
-
-
-
-#github-title{
-
-	font-size: 56px;
-	text-decoration:underline #66ffcc 0.8px;
 	
 
+	#github-title{
+		font-size: 26px;
+	}
 }
+
+
+
+
+
