@@ -25,3 +25,7 @@ AOS.init()
 setCurrentYear()
 
 
+function resumeOpen(){
+	window.open("https://drive.google.com/file/d/18PaqyIZnAlLtWPgIfLiSl6eWJ1Xx5cv6/view?usp=share_link");
+
+}
