@@ -688,6 +688,7 @@ small {
 
 
 .contact-form-container {
+	
 	/* make the form more material ui */
 
 	border: 1px solid rgba(255, 255, 255, 0.1);
@@ -701,6 +702,7 @@ small {
   }
   
   .contact-form-container h2 {
+
 	text-align: center;
 	margin-bottom: 20px;
 	color: #00ff99;
@@ -710,10 +712,12 @@ small {
   }
   
   .contact-form-container .form-group {
+
 	margin-bottom: 20px;
   }
   
   .contact-form-container label {
+
 	display: block;
 	font-weight: bold;
 	margin-bottom: 5px;
@@ -725,6 +729,7 @@ small {
   }
   
   .contact-form-container label::after {
+
 	content: '';
 	position: absolute;
 	bottom: -2px;
@@ -738,6 +743,7 @@ small {
   
   .contact-form-container input,
   .contact-form-container textarea {
+
 	width: 100%;
 	padding: 10px;
 	border: none;
@@ -751,12 +757,14 @@ small {
   
   .contact-form-container input::placeholder,
   .contact-form-container textarea::placeholder {
+
 	color: rgba(255, 255, 255, 0.6);
 	transition: color 0.3s;
   }
   
   .contact-form-container input:focus,
   .contact-form-container textarea:focus {
+
 	outline: none;
 	background-color: rgba(255, 255, 255, 0.3);
 	box-shadow: 0px 0px 8px rgba(0, 255, 153, 0.4);
@@ -764,15 +772,18 @@ small {
   
   .contact-form-container input:focus ~ label::after,
   .contact-form-container textarea:focus ~ label::after {
+
 	transform: scaleX(1);
   }
   
   .contact-form-container input:focus ~ label,
   .contact-form-container textarea:focus ~ label {
+
 	color: #00ff99;
   }
   
   .contact-form-container button {
+
 	display: block;
 	margin: 0 auto;
 	padding: 10px 20px;
@@ -786,8 +797,10 @@ small {
 	cursor: pointer;
 	transition: background-color 0.3s;
   }
+
   
   .contact-form-container button:hover {
+
 	background-color: #00cc88;
   }
 
